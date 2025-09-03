@@ -7,7 +7,7 @@ import ServiceCard from "../components/ServiceCard";
 export default function Home() {
   return (
     <div className="container mx-auto px-4 py-10">
-      {/* Hero section */}
+      {/* Hero */}
       <section className="flex flex-col md:flex-row items-center justify-between mb-16">
         <div className="md:w-1/2 mb-6 md:mb-0">
           <h1 className="text-4xl font-bold mb-4">Rachel Reed</h1>
@@ -28,7 +28,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Services section */}
+      {/* Services */}
       <section className="mb-16">
         <h3 className="text-2xl font-bold mb-6 text-rose-500">Exclusive Services</h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
