@@ -1,14 +1,9 @@
-import React from "react";
+import Link from "next/link";
 
-interface ButtonProps {
-  text: string;
-  link: string;
-}
-
-export default function Button({ text, link }: ButtonProps) {
+export default function Button({ text, link }: { text: string; link: string }) {
   return (
-    <a href={link}>
-      <button>{text}</button>
-    </a>
+    <Link href={link} className="px-4 py-2 bg-rose-500 text-white rounded-md hover:bg-rose-600">
+      {text}
+    </Link>
   );
 }
