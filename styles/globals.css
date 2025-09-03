@@ -1,1 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
 
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Lora', serif;
+  color: #b76e79; /* rose-gold accent */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: 'Lora', serif;
+  background-color: white;
+  border: 2px solid #b76e79;
+  color: #b76e79;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #b76e79;
+  color: white;
+}
