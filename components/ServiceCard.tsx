@@ -1,14 +1,12 @@
-import React from "react";
-
-interface ServiceCardProps {
+type ServiceProps = {
   title: string;
   description: string;
-}
+};
 
-export default function ServiceCard({ title, description }: ServiceCardProps) {
+export default function ServiceCard({ title, description }: ServiceProps) {
   return (
-    <div className="p-4 border border-gray-200 rounded-lg shadow hover:shadow-lg transition">
-      <h4 className="text-lg font-semibold mb-2">{title}</h4>
+    <div className="border p-4 rounded-md shadow hover:shadow-lg transition">
+      <h3 className="text-lg font-bold mb-2">{title}</h3>
       <p>{description}</p>
     </div>
   );
