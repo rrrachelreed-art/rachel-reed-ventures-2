@@ -1,5 +1,5 @@
 export const SERVICES = [
-  { id: "svc1", title: "Real Estate Guidance", description: "Helping clients find perfect homes and rentals." },
-  { id: "svc2", title: "Skincare Consultation", description: "Personalized online skincare advice." },
-  { id: "svc3", title: "Makeup Consultation", description: "Tailored online makeup guidance." },
+  { id: "s1", title: "Real Estate", description: "Rentals & sales of property, personal guidance included." },
+  { id: "s2", title: "Skin Care Consultation", description: "Personalized online skincare consultations." },
+  { id: "s3", title: "Make-Up Consultation", description: "Tailored makeup advice via video or WhatsApp." },
 ];
